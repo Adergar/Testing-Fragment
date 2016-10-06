@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Testing</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Καλωσήρθες στον ταλανισμό σου: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Καλωσήρθες στον ταλανισμό σου</string>
+</resources>
