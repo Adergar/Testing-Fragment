@@ -137,13 +137,13 @@ public class SP extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
-            return PlaceholderFragment.newInstance(position + 1);
+            return PlaceholderFragment.newInstance(position + 2);
         }
 
         @Override
         public int getCount() {
             // Show 3 total pages.
-            return 3;
+            return 2;
         }
 
         @Override
@@ -152,7 +152,7 @@ public class SP extends AppCompatActivity {
                 case 0:
                     return "Album";
                 case 1:
-                    return "Shop";
+                    return ("Shop");
                 case 2:
                     return "Menu";
             }
